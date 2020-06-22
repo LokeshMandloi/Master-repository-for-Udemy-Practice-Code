@@ -1,0 +1,18 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color:darkblue;
+}
+p{
+    color: crimson;
+    font-size: 22px;
+    border-radius: 2px;
+    background-color: #5fc7c3;
+    box-shadow: 1px 6px 20px black;
+}
+div{
+    border-radius: 4px;
+    border-color: darkblue;
+    font-family: cursive
+}
