@@ -9,6 +9,10 @@ export default class LifeCycleHooks extends LightningElement {
         console.log('inside constructor');
         this.name = this.name+'Singh';
     }
+    
+    renderedCallback(){
+        console.log('renderedCallback');
+    }
 
     connectedCallback(){
         console.log('connectedCallback');
@@ -18,9 +22,7 @@ export default class LifeCycleHooks extends LightningElement {
         console.log('disconnectedCallback');
     }
 
-    renderedCallback(){
-        console.log('renderedCallback');
-    }
+    
 
     // render(){
 

@@ -5,6 +5,8 @@
     <c:htmlEventBasic2/>
     <c:ifElseDemo/>
     <c:loopingAndIteration/>
-    <c:calculatorLWCCmp/> -->
+    <c:calculatorLWCCmp/> 
     <c:propDemo/>
+    <c:lifeCycleHooks/>-->
+    <c:parentComp/>
 </aura:application>
