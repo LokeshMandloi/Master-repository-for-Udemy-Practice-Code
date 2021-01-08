@@ -1,0 +1,14 @@
+<template>
+    <div >
+        <h1>Provide the content</h1>
+        <slot name="contentInfo">
+            <p>I am inside name slot</p>
+        </slot>
+        <slot name="firstName">
+            <p>
+                First Name:
+                <lightning-input value="Dummy value" label="FirstName"></lightning-input>
+            </p>
+        </slot>
+   </div>
+</template>
